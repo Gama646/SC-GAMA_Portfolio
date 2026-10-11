@@ -162,8 +162,9 @@ export default function Page() {
       </div>
     </section>
 
-    <section id="contact" className="contact"><div className="section-label"><span>Contact</span><span>Let's solve real world problems together. Help each other grow within the tech Industry</span></div><div className="contact-body"><h2>Let&apos;s make<br /><i>solutions.</i></h2><a className="contact-circle" href="mailto:sibonginkosigama646@gmail.com">Say hello <ArrowUpRight /></a></div><div className="contact-bottom"><a href="sibonginkosigama646@gmail.com"><Mail />Email me on Say Hello →</a><span>South Africa · Mpumalanga</span></div></section>
+    <section id="contact" className="contact"><div className="section-label"><span>Contact</span><span>Let's solve real world problems together. Help each other grow within the tech Industry</span></div><div className="contact-body"><h2>Let&apos;s make<br /><i>solutions.</i></h2><a className="contact-circle" href="mailto:sibonginkosigama646@gmail.com">Say hello <ArrowUpRight /></a></div><div className="contact-bottom"><a href="mailto:sibonginkosigama646@gmail.com"><Mail />Email me on Say Hello →</a><span>South Africa · Mpumalanga</span></div></section>
 
     <footer className="footer"><span>© 2026 SG / ICT Graduate</span><div><a href="https://github.com/Gama646" target="_blank" rel="noreferrer"><Code2 /> GitHub</a><a href="https://www.linkedin.com/in/gama646" target="_blank" rel="noreferrer"><Code2 /> LinkedIn</a><a href="https://www.instagram.com/catha2088" target="_blank" rel="noreferrer"><Code2 /> Instagram</a></div><button onClick={() => go('home')}>Back to top ↑</button></footer>
+    <SpeedInsights />
   </main>
 }
