@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { ArrowDown, ArrowUpRight, Code2, Mail, Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const heroImages = [
   '/myPictures/hero-bg.jpeg',
